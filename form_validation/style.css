@@ -70,13 +70,13 @@ form{
 
 .form-control small{
     color:var(--error-color);
-    position: absolute;
+    
     left: 0;
     bottom: 0;
     visibility: hidden;
 }
 
-.form-control.error small{
+.form-control.fault small{
     visibility: visible;
 }
 
